@@ -1,2 +1,4 @@
 To create a link use:
-gcc <filename> -lstdc++ -o <exename> 
+gcc <filename> -lstdc++ -lm -o <exename> 
+
+-lm - enable use of standard library
